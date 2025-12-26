@@ -64,7 +64,6 @@
 int main() {
 
 float m1, m2, m3, avg;
-
 float eps = 0.0001; 
 
 printf("Enter marks for three subjects: ");
