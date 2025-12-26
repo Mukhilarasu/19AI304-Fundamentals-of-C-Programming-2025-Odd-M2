@@ -308,19 +308,26 @@ Thus, the program was implemented and executed successfully, and the required ou
 #include <stdio.h>
 
 int main() {
+    int i;
 
-printf("12345\n");
+    for (i = 1; i <= 5; i++)
+        printf("%d", i);
+    printf("\n");
 
-printf("2   4\n");
+    for (i = 2; i <= 4; i++) {
+        printf("%d", i);
+        printf("   ");
+        printf("%d", 6 - i);
+        printf("\n");
+    }
 
-printf("3   3\n");
+    for (i = 5; i >= 1; i--)
+        printf("%d", i);
+    printf("\n");
 
-printf("4   2\n");
-
-printf("54321\n");
-
-return 0;
+    return 0;
 }
+
 ```
 # Output:
 
